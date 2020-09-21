@@ -53,16 +53,9 @@ class FramedPhoto extends Photo{
     }
 }
 
-let photo1 = new Photo();
-let photo2 = new Photo(10, 12);
-let mattedPhoto1 = new MattedPhoto(8,10,'blue');
-let mattedPhoto2 = new MattedPhoto(12,15,'red');
-let framedPhoto1 = new FramedPhoto(10,12,'silver','modern');
-let framedPhoto2 = new FramedPhoto(9,12,'gold','classic');
-
-console.log(photo1.toString());
-console.log(photo2.toString());
-console.log(mattedPhoto1.toString());
-console.log(mattedPhoto2.toString());
-console.log(framedPhoto1.toString());
-console.log(framedPhoto2.toString());
+export let photo1 = new Photo();
+export let photo2 = new Photo(10, 12);
+export let mattedPhoto1 = new MattedPhoto(8,10,'blue');
+export let mattedPhoto2 = new MattedPhoto(12,15,'red');
+export let framedPhoto1 = new FramedPhoto(10,12,'silver','modern');
+export let framedPhoto2 = new FramedPhoto(9,12,'gold','classic');
